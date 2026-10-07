@@ -21,3 +21,13 @@ data/private/
 .DS_Store
 Thumbs.db
 .expo/
+
+# Additional credential file names
+token.*
+tokens.*
+api_key.*
+apikey.*
+secrets.*
+credentials.*
+*.pfx
+*.p12

@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "id": "coffee-01",
+      "name": "Filtre kahve / Filter coffee",
+      "price_cents": 11000,
+      "currency": "TRY"
+    },
+    {
+      "id": "coffee-02",
+      "name": "Latte",
+      "price_cents": 13050,
+      "currency": "TRY"
+    },
+    {
+      "id": "food-01",
+      "name": "Kurabiye / Cookie",
+      "price_cents": 7500,
+      "currency": "TRY"
+    }
+  ],
+  "errors": []
+}

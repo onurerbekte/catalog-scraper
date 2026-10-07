@@ -1,0 +1,23 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials*.json
+token*.json
+# Generated files
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+*.sqlite*
+*.db
+data/private/
+.DS_Store
+Thumbs.db
+.expo/

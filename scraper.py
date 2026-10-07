@@ -81,7 +81,7 @@ def export(result, directory):
         writer.writeheader()
         for product in result["products"]:
             # CSV cells starting with spreadsheet operators are stored as text.
-            writer.writerow({key:("'"+value if isinstance(value,str) and value.startswith(("=", "+", "-", "@")) else value) for key,value in product.items()})
+            writer.writerow({key:("'"+value if isinstance(value,str) and value.lstrip(" \t\r\n").startswith(("=", "+", "-", "@")) else value) for key,value in product.items()})
     (directory / "catalog.json").write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
